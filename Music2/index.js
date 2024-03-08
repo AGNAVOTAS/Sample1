@@ -72,7 +72,7 @@ const app = {
 	{
       name: "LILIM",
       singer: "Ryssi",
-      path: "assets/music/lilim.mp3",
+      path: "assets/music/Lilim.mp3",
       image: "assets/img/lilim.jpg",
     },
     {
