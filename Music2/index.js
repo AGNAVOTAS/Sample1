@@ -46,6 +46,24 @@ const app = {
   },
   songs: [
     {
+      name: "ANOTHER IN THE FIRE",
+      singer: "Hill Song UNITED - (Live)",
+      path: "assets/music/AnotherInTheFire(Live).mp3",
+      image: "assets/img/hillsongUNITED.jpg",
+    },
+	{
+      name: "BROKEN VESSELS(AMAZING GRACE)",
+      singer: "Hillsong UNITED",
+      path: "assets/music/BrokenVessels(AmazingGrace)-HillsongUNITED.mp3",
+      image: "assets/img/hillsongUNITED.jpg",
+    },
+    {
+      name: "FOREVER",
+      singer: "Forever-KariJobe - (Live)",
+      path: "assets/music/Forever-KariJobe(Live).mp3",
+      image: "assets/img/karijobe.jpg",
+    },
+		    {
       name: "LILIM",
       singer: "Victory Worship",
       path: "assets/music/LilimVW.mp3",
@@ -58,10 +76,40 @@ const app = {
       image: "assets/img/lilim.jpg",
     },
     {
+      name: "OCEANS (WHERE FEET MAY FAIL)",
+      singer: "Hillsong - UNITED",
+      path: "assets/music/Oceans(Where Feet May Fail)-HillsongUNITED.mp3",
+      image: "assets/img/hillsongUNITED.jpg",
+    },
+	{
+      name: "PRAISE",
+      singer: "Elevation Worship (feat. BrandonLake, Chris Brown & Chandler Moore)",
+      path: "assets/music/Praise-ElevationWorship.mp3",
+      image: "assets/img/elevationworship.jpg",
+    },
+	    {
       name: "PUPURIHIN KA SA AWIT",
       singer: "His Life City Church",
       path: "assets/music/Pupurihin_Ka_Sa_Awit _ His_Life_City_Church.mp3",
       image: "assets/img/Pupurihin_Ka_Sa_Awit _ His_Life_City_Church.jpg",
+    },
+		{
+      name: "SAFE",
+      singer: "Moira",
+      path: "assets/music/Safe_moira.mp3",
+      image: "assets/img/Safe_moira.jpg",
+    },
+	{
+      name: "TOUCH THE SKY",
+      singer: "Hillsong UNITED",
+      path: "assets/music/TouchTheSky-HillsongUNITED.mp3",
+      image: "assets/img/hillsongUNITED.jpg",
+    },
+	{
+      name: "WHAT A BEAUTIFUL NAME",
+      singer: "Hillsong UNITED",
+      path: "assets/music/WhatABeautifulNameLIVEinIsrael-HillsongUNITED.mp3",
+      image: "assets/img/hillsongUNITED.jpg",
     },
     {
       name: "WHAT A BEAUTIFUL NAME",
@@ -69,12 +117,8 @@ const app = {
       path: "assets/music/WhatABeautifulNameMoira.mp3",
       image: "assets/img/WhatABeautifulNameMoira.jpg",
     },
-	{
-      name: "SAFE",
-      singer: "Moira",
-      path: "assets/music/Safe_moira.mp3",
-      image: "assets/img/Safe_moira.jpg",
-    },
+
+
 	
   ],
 
