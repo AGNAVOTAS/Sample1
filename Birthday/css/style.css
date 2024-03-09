@@ -29,13 +29,13 @@ body {
   color: white;
   font-size: 20px;
   margin-bottom: 0px;
-  font-family: Snell Roundhand, cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .anywhere {
   color: white;
-  font-size: 10px;
+  font-size: 12px;
   margin-bottom: 60px;
-  font-family: Snell Roundhand, cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .quote {
@@ -58,7 +58,7 @@ body {
 .birthdaywishee {
   color: white;
   margin-top: 0.00em;
-  font-family: Snell Roundhand, cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @keyframes gradient {
