@@ -38,6 +38,8 @@
   --gold: hsl(47, 92%, 41%);
   --transdarkgray: hsl(37, 4%, 65%, 0.28);
   --transgold: hsl(47, 92%, 41%, 0.28);
+  --green: hsl(142, 57%, 50%);
+  --transgreen: hsl(142, 57%, 50%, 0.28);
   
 
   /**
@@ -166,7 +168,7 @@ body {
 :focus-visible { outline-offset: 4px; }
 
 ::selection {
-  background-color: var(--gold);
+  background-color: var(--green);
   color: var(--white);
 }
 
@@ -193,7 +195,7 @@ body {
 .section:nth-child(odd) { background-color: var(--gray); }
 
 .section-subtitle {
-  color: var(--gold);
+  color: var(--green);
   text-transform: uppercase;
   font-weight: var(--fw-700);
   letter-spacing: 4px;
@@ -239,7 +241,7 @@ body {
 }
 
 .btn-link {
-  color: var(--gold);
+  color: var(--green);
   font-weight: var(--fw-500);
   display: flex;
   align-items: center;
@@ -256,7 +258,7 @@ body {
 
 .has-underline .span {
   height: 2px;
-  background-color: var(--gold);
+  background-color: var(--green);
   width: 200px;
   margin-inline: auto;
   margin-block-start: 30px;
@@ -268,8 +270,8 @@ body {
   top: 2px;
   left: 45%;
   transform: translateY(-50%) rotate(45deg);
-  background-color: var(--gold);
-  box-shadow: 7px -7px var(--gold);
+  background-color: var(--green);
+  box-shadow: 7px -7px var(--green);
 }
 
 .btn {
@@ -278,19 +280,19 @@ body {
 }
 
 .btn-primary {
-  background-color: var(--gold);
+  background-color: var(--green);
   color: var(--white);
 }
 
 .btn-primary:is(:hover, :focus) { background-color: var(--black); }
 
 .btn-secondary {
-  border: 1px solid var(--gold);
-  color: var(--gold);
+  border: 1px solid var(--green);
+  color: var(--green);
 }
 
 .btn-secondary:is(:hover, :focus) {
-  background-color: var(--gold);
+  background-color: var(--green);
   color: var(--white);
 }
 
@@ -349,7 +351,7 @@ body {
 .logo {
   font-family: var(--ff-philosopher);
   font-size: 4rem;
-  color: var(--gold);
+  color: var(--green);
   line-height: 1;
 }
 
@@ -380,7 +382,7 @@ body {
 }
 
 .navbar.active {
-	  color: var(--gold);
+	  color: var(--green);
   max-height: 400px;
   visibility: visible;
   transition-duration: 0.5s;
@@ -395,7 +397,7 @@ body {
   transition: var(--transition-1);
 }
 
-.navbar-link:is(:hover, :focus) { color: var(--gold); }
+.navbar-link:is(:hover, :focus) { color: var(--green); }
 
 
 /*-----------------------------------*\
@@ -600,7 +602,7 @@ strong {
   right: 30px;
   bottom: 0;
   left: 0;
-  background-color: var(--transgold);
+  background-color: var(--transgreen);
   border-radius: var(--radius-10);
   z-index: -1;
 }
@@ -619,7 +621,7 @@ strong {
   animation: pulse 3s ease infinite;
 }
 
-.play-btn:is(:hover, :focus) { color: var(--gold); }
+.play-btn:is(:hover, :focus) { color: var(--green); }
 
 @keyframes pulse {
   0%,
@@ -665,7 +667,7 @@ strong {
 
 .button:hover {
   box-shadow: 1px 1px 200px #252525;
-  color: var(--gold);
+  color: var(--green);
   border: none;
 }
 
@@ -707,7 +709,7 @@ strong {
 .benefits-card::before {
   width: 80px;
   height: 80px;
-  background-color: var(--transgold);
+  background-color: var(--transgreen);
   transform: translateY(60px);
 }
 
@@ -740,7 +742,7 @@ strong {
 .benefits-card .btn-link { margin-block-start: 15px; }
 
 .mybtn{
-color: var(--gold);
+color: var(--green);
 }
 
 
@@ -995,7 +997,7 @@ color: var(--gold);
   border-block-end: 2px solid transparent;
 }
 
-.input-field:focus { border-color: var(--gold); }
+.input-field:focus { border-color: var(--green); }
 
 textarea.input-field {
   resize: vertical;
@@ -1024,7 +1026,7 @@ textarea.input-field {
   transition: var(--transition-1);
 }
 
-.contact-card .card-link:is(:hover, :focus) { color: var(--gold); }
+.contact-card .card-link:is(:hover, :focus) { color: var(--green); }
 
 .social-list-title {
   font-size: var(--fs-6);
@@ -1038,7 +1040,7 @@ textarea.input-field {
 }
 
 .social-link {
-  background-color: var(--gold);
+  background-color: var(--green);
   color: var(--white);
   font-size: 20px;
   padding: 5px;
@@ -1059,7 +1061,7 @@ textarea.input-field {
   #FOOTER
 \*-----------------------------------*/
 .copyright {
-	color: var(--gold);
+	color: var(--green);
 }
 
 .footer {
@@ -1069,7 +1071,7 @@ textarea.input-field {
 
 .footer-top {
   padding-block: 50px;
-  border-block-end: 1px solid var(--gold);
+  border-block-end: 1px solid var(--green);
 }
 
 .footer .logo { margin-block-end: 15px; }
@@ -1086,7 +1088,7 @@ textarea.input-field {
   transition: var(--transition-1);
 }
 
-.footer-link:is(:hover, :focus) { color: var(--gold); }
+.footer-link:is(:hover, :focus) { color: var(--green); }
 
 .footer-bottom { padding-block: 20px; }
 
@@ -1523,12 +1525,12 @@ textarea.input-field {
   position: fixed;
   bottom: 0;
   right: 15px;
-  background-color: var(--gold);
+  background-color: var(--green);
   color: var(--white);
   font-size: 2rem;
   padding: 14px;
   border-radius: var(--radius-4);
-  box-shadow: -3px 3px 15px var(--gold);
+  box-shadow: -3px 3px 15px var(--green);
   z-index: 2;
   visibility: hidden;
   opacity: 0;
