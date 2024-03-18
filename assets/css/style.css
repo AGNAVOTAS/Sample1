@@ -279,7 +279,7 @@ body {
 
 .btn-primary {
   background-color: var(--gold);
-  color: var(--white);
+  color: var(--gold);
 }
 
 .btn-primary:is(:hover, :focus) { background-color: var(--black); }
